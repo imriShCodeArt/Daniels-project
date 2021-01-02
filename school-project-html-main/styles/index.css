@@ -1,0 +1,117 @@
+html {
+    --bg-color: #002b36;
+    --secondary-bg: rgba(200, 200, 200, 0.55);
+    --text-color: #eee8d5;
+    --main-color: #657b83;
+    --shadows: 6px 18px 8px rgba(20, 20, 20, 0.55);
+    --heading-color: #fdf6e3;
+}
+
+body {
+    margin: 0;
+}
+
+main,
+footer ul,
+nav ul,
+header {
+    display: flex;
+}
+
+h1,
+h2,
+h3 {
+    color: var(--heading-color);
+    font-family: 'Hanalei Fill', cursive;
+    font-weight: 500;
+}
+
+header {
+    margin-block-end: 5vw;
+    margin-block-start: 2vw;
+}
+
+ul {
+    list-style: none;
+    justify-content: center;
+    align-items: baseline;
+    background-color: var(--secondary-bg);
+    padding-block: 10px;
+}
+
+ul li {
+    padding-inline: 3vw;
+    font-weight: 400;
+}
+
+nav ul {
+    padding-block: 1vw;
+    border-radius: 10px;
+    box-shadow: var(--shadows);
+}
+
+footer ul {
+    border-radius: 10px;
+    box-shadow: var(--shadows);
+}
+
+body {
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    background-image: url("./images/brazil.jpeg");
+    color: var(--text-color);
+}
+
+main {
+    text-align: left;
+    width: 70vw;
+    margin: auto;
+    background-color: var(--main-color);
+    border-radius: 10px;
+    box-shadow: var(--shadows);
+}
+
+section article p {
+    margin-inline-start: 10px;
+    font-size: 0.8rem;
+}
+
+article {
+    padding-block-end: 10px;
+}
+
+section,
+aside {
+    padding: 10px;
+}
+
+aside {
+    background-color: var(--secondary-bg);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+footer li {
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
+aside ul {
+    list-style: disclosure-closed;
+}
+
+aside li {
+    padding-top: 4px;
+    padding-left: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color);
+    font-size: large;
+}
+
+a:hover {
+    text-shadow: 2px 2px 2px black;
+    color: #6c71c4;
+}

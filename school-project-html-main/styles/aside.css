@@ -1,0 +1,42 @@
+aside article {
+    position: sticky;
+    top: 0;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+
+/* scroll-bar */
+
+
+/* width */
+
+aside article::-webkit-scrollbar {
+    width: 8px;
+}
+
+
+/* Track */
+
+aside article::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+
+/* Handle */
+
+aside article::-webkit-scrollbar-thumb {
+    background: rgba(10, 10, 10, 0.5);
+    border-radius: 10px;
+}
+
+
+/* Handle on hover */
+
+aside article::-webkit-scrollbar-thumb:hover {
+    background: rgba(110, 110, 110, 0.5);
+}
+
+
+/*// scroll-bar */

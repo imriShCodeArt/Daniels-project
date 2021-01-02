@@ -1,0 +1,15 @@
+main {
+    margin-top: 3em;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main>section {
+    flex-basis: 62%;
+    flex-grow: 1;
+}
+
+main>aside {
+    flex-basis: 31%;
+    flex-grow: 1;
+}
